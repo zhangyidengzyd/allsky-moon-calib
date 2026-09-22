@@ -1,0 +1,21 @@
+# ── GitHub 语言识别：.m 是歧义扩展名 ──────────────────────────────────
+# .m 同时被 Objective-C / Mathematica / MATLAB / Mercury / Limbo 使用。
+# 不显式指定时，GitHub 的语言统计（linguist）可能把本仓误判为 Objective-C
+# 或 Mathematica，语言条与搜索结果都会出错。这两行钉死为 MATLAB 并纳入统计。
+*.m        linguist-language=MATLAB linguist-detectable=true
+
+# ── 行尾统一为 LF ────────────────────────────────────────────────────
+# 本包源码统一 LF（MATLAB 在 Windows 上同样正常）。这一行防止以后在
+# Windows 编辑器里保存时把整文件改成 CRLF，造成无意义的整文件 diff。
+*          text=auto eol=lf
+
+# ── 二进制：不做文本 diff、不做行尾转换 ──────────────────────────────
+*.mat      binary
+*.mlx      binary
+*.fig      binary
+*.slx      binary
+*.png      binary
+*.jpg      binary
+
+# ── 文档不计入语言统计，保持语言条为纯 MATLAB ────────────────────────
+docs/*     linguist-documentation

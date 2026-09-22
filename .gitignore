@@ -1,0 +1,19 @@
+# 所有可再生的产物
+out/
+
+# 原始帧：体积很大（约 240 GB），不入库；但保留放置说明
+data/raw/*
+!data/raw/README.md
+
+# MATLAB 编辑器与临时文件
+*.asv
+*.autosave
+*.mex*
+slprj/
+codegen/
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini

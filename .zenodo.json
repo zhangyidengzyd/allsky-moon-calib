@@ -1,0 +1,34 @@
+{
+  "title": "Moon-based geometric calibration and airglow projection for long-exposure all-sky airglow images without usable stellar references",
+  "upload_type": "software",
+  "description": "Self-contained MATLAB code package accompanying the manuscript on moon-based geometric calibration of a 180-degree all-sky airglow imager and 250 km airglow projection for long-exposure (180 s) archival data without usable stellar references. Contains the calibration pipeline, geometric projection, plasma-bubble detection, synthetic positive controls, and a verification script that reproduces every numerical value printed in the paper from the bundled calibration solutions (no raw frames required).",
+  "creators": [
+    {
+      "name": "Zhang, Yideng",
+      "affiliation": "［单位待填］",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.0.0",
+  "publication_date": "2026-09-22",
+  "keywords": [
+    "all-sky airglow imager",
+    "geometric calibration",
+    "moon-based calibration",
+    "parameter identifiability",
+    "equatorial plasma bubble",
+    "630.0 nm airglow"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.12176/01.05.010",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    }
+  ],
+  "notes": "原始观测数据未随包提供；配套论文与 Zenodo DOI 的占位字段在正式发布前需补齐。"
+}

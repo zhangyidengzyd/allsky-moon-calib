@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article and the archived release below."
+title: >-
+  Moon-based geometric calibration and airglow projection for long-exposure all-sky airglow images without usable stellar references
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Yideng
+    affiliation: "［单位待填 / affiliation to be completed］"
+    orcid: "https://orcid.org/0000-0000-0000-0000"   # ［ORCID 待填］
+version: 1.0.0
+date-released: 2026-09-22
+license: MIT
+repository-code: "https://github.com/［用户名待填］/allsky-moon-calib"
+doi: "10.5281/zenodo.［DOI 待填］"
+keywords:
+  - all-sky airglow imager
+  - geometric calibration
+  - moon-based calibration
+  - parameter identifiability
+  - equatorial plasma bubble
+  - 630.0 nm airglow
+abstract: >-
+  Self-contained MATLAB code for the moon-based geometric calibration of a 180-degree
+  all-sky airglow imager and for the subsequent 250 km airglow projection. The method
+  targets long-exposure (180 s) archival airglow data in which stars cannot be reliably
+  extracted, and explicitly decouples the degeneracy among the zenith pixel, the
+  azimuthal orientation angle and the radial scale. Includes the calibration pipeline,
+  the geometric projection, plasma-bubble detection, synthetic positive controls, and a
+  verification script that reproduces every numerical value printed in the paper from the
+  bundled calibration files (no raw data required).
+references:
+  - type: article
+    title: "［论文题名待填 / manuscript title to be completed］"
+    authors:
+      - family-names: Zhang
+        given-names: Yideng
+    year: 2026
+    notes: "Submitted. DOI 待补。"
